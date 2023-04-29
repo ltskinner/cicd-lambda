@@ -18,5 +18,6 @@ phases:
 artifacts:
   files:
     - lambda_function.py
+    - appspec.yml
   name: cice-codepipeline-codedeploy-lambda-$(date +%Y-%m-%d)
   
